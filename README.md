@@ -112,4 +112,4 @@ python fixedprop_train.py -w PS-fixed -d news ....
 
 # Licence
 
-This repository is licensed under NTT License. See  "NTTSoftwareLicenseAgreement_20230807_v2.1.docx" for details.
+This repository is licensed under NTT License. See  "NTTSoftwareLicenseAgreement.txt" for details.
