@@ -96,7 +96,7 @@ We also offer an implementation of baseline method PSW, non-differentiable Paret
 Install arviz package, which includes the implementation of Pareto smoothing 
 
 ```
-$ pip install arviz
+pip install arviz
 ```
 
 Then prepare the Pareto smoothed IPW weights for each dataset
