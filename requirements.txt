@@ -1,0 +1,17 @@
+absl_py==1.4.0
+catenets==0.2.3
+econml==0.14.1
+ganite==0.1.2
+jax==0.4.23
+matplotlib==3.8.0
+numba==0.56.4
+numpy==1.23.5
+pandas==2.2.0
+scikit_learn==1.2.1
+scipy==1.10.0
+seaborn==0.13.2
+sentence_transformers==2.3.1
+setuptools==67.3.2
+tensorflow==2.11.1
+torch==2.1.2
+tqdm==4.64.1
