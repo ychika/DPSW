@@ -15,13 +15,13 @@ In our experiments, we used Python 3.10.9 on MacOS.
 Use pip to install the required python packages:
 
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Download and copy [fast-soft-sort](https://github.com/google-research/fast-soft-sort) folder:
 
 ```
-$ cp -r (path-to-downloaded-folder)/fast-soft-sort ./
+cp -r (path-to-downloaded-folder)/fast-soft-sort ./
 ```
 
 # Data
@@ -43,7 +43,7 @@ Save it as .npz file: ./data/LBIDD/LBIDD.npz
 For instance, prepare datasets with number of features d = 15 by
 
 ```
-$ python data_generator.py 5 5 5 0 1. 1. 4
+python data_generator.py 5 5 5 0 1. 1. 4
 ```
 
 Save them in ./data/synthH/5_5_5/...
@@ -53,15 +53,15 @@ Note: '5_5_5' denotes the dimensionality of each of the three feature representa
 # Run codes using .sh files
 
 ```
-$ ./synthH.sh
+./synthH.sh
 ```
 
 ```
-$ ./news.sh
+./news.sh
 ```
 
 ```
-$ ./LBIDD.sh
+./LBIDD.sh
 ```
 
 If you would like to change weighting schemes, use -w option in each .sh file:
@@ -102,12 +102,12 @@ $ pip install arviz
 Then prepare the Pareto smoothed IPW weights for each dataset
 
 ```
-$ python test_PSW.py -d news
+python test_PSW.py -d news
 ```
 
 Finally train the feature representations and outcome prediction models by
 ```
-$ python fixedprop_train.py -w PS-fixed -d news .... 
+python fixedprop_train.py -w PS-fixed -d news .... 
 ```
 
 # Licence
