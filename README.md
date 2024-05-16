@@ -18,7 +18,7 @@ Use pip to install the required python packages:
 $ pip install -r requirements.txt
 ```
 
-Download and copy fast-soft-sort/ folder 
+Download and copy [fast-soft-sort](https://github.com/google-research/fast-soft-sort) folder:
 
 ```
 $ cp -r (path-to-downloaded-folder)/fast-soft-sort ./
