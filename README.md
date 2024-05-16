@@ -6,6 +6,7 @@ Weighted representation learning with differentiable Pareto-smoothed weights for
 
 `Yoichi Chikahara, Kansei Ushiyama. "Differentiable Pareto-Smoothed Weighting for High-Dimensional Heterogeneous Treatment Effect Estimation", UAI, 2024.`
 
+[arXiv preprint](https://arxiv.org/abs/2404.17483)
 
 # Dependencies
 
