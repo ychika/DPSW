@@ -93,7 +93,7 @@ We also offer an implementation of baseline method PSW, non-differentiable Paret
 
 ## Dependencies
 
-Install arviz package, which includes the implementation of Pareto smoothing 
+Install [arviz](https://pypi.org/project/arviz/) package, which includes the implementation of Pareto smoothing 
 
 ```
 pip install arviz
